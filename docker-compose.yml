@@ -14,7 +14,7 @@ services:
     container_name: backend
     command: sh -c "sleep 5 && node /opt/server/index.js"
     depends_on:
-      - mysql1
+      - mysql
   frontend:
     image: saanvilikhith/frontend:v1
     container_name: frontend 
