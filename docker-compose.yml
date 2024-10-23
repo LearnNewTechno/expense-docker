@@ -4,7 +4,7 @@ networks:
 volumes:
   mysql: # docker volume create mysql
 services:
-  mysql1:
+  mysql:
     image: saanvilikhith/mysql:v1
     container_name: mysql
     volumes:
